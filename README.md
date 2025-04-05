@@ -30,6 +30,10 @@ This project focuses on the **design and simulation of a 50V Buck Converter**, p
 - The layout includes placement of essential components, tracks, and connectors for future hardware implementation.
 
 ### ✔️Simulation of Buck Converter With Gate Driver
+
+![image](https://github.com/user-attachments/assets/ad1eed50-987f-47c3-8664-f5306bd5396c)
+
+
 - Simulated an **Buck Converter with BJT driver** to drive the MOSFET.
 - Helps in understanding switching characteristics and behavior before adding a dedicated gate driver.
 
