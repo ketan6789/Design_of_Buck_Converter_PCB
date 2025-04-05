@@ -1,3 +1,4 @@
+[![View Design_of_Buck_Converter_PCB on File Exchange](https://www.mathworks.com/matlabcentral/images/matlab-file-exchange.svg)](https://in.mathworks.com/matlabcentral/fileexchange/180669-design_of_buck_converter_pcb)
 # Buck Converter Design and Simulation
 
 
