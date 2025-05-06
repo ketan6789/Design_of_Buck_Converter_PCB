@@ -22,10 +22,10 @@ This project focuses on the **design and simulation of a 50V Buck Converter**, p
 
 ### ✔️ Proteus PCB Design
 
-![image](https://github.com/user-attachments/assets/837f46f6-1451-4558-b490-a14024229786)
+![Screenshot 2025-05-01 013137](https://github.com/user-attachments/assets/6d87e37a-0dc7-4fa7-92fb-bbd85b5b4254)
+- PCB layout 
 
-
-
+![Screenshot 2025-04-30 204402](https://github.com/user-attachments/assets/48b6c55a-1017-45f4-baf5-330a286c8467)
 
 - Created a **3D PCB layout** of the Buck Converter in Proteus.
 - The layout includes placement of essential components, tracks, and connectors for future hardware implementation.
@@ -34,13 +34,20 @@ This project focuses on the **design and simulation of a 50V Buck Converter**, p
 
 ![image](https://github.com/user-attachments/assets/ad1eed50-987f-47c3-8664-f5306bd5396c)
 
-
 - Simulated an **Buck Converter with BJT driver** to drive the MOSFET.
 - Helps in understanding switching characteristics and behavior before adding a dedicated gate driver.
 
-## Future Work
-- The **TLP250 gate driver** will be used in the physical implementation to drive the MOSFET efficiently.
-- Further testing will involve hardware prototyping, PCB printing, and real-world validation of the Buck Converter performance.
+## Hardware Implementation
+
+<img src="https://github.com/user-attachments/assets/18bc2709-08c4-4ebd-9575-a645904c3272" width="600" height="400"/>
+
+- BUCK Converter Setup on Breadboard
+  
+<img src="https://github.com/user-attachments/assets/b385ec43-aa9f-4d42-873b-8f79ae9d5c85" width="600" height="700"/>
+
+- Complete Setup of Buck Converter
+- Note the output is a square wave as the LC filter was disconnected.
+
 
 ## Files Included
 - `BuckConverter_ClosedLoop.slx`: Simulink model of the Buck Converter with feedback control.
